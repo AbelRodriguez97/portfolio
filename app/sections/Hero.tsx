@@ -148,7 +148,7 @@ export default function Hero() {
           <div className="h-px flex-1 bg-[#1e293b]" />
 
           <span className="font-mono text-xs text-[#475569] whitespace-nowrap">
-            Málaga, España 🇪🇸
+          Málaga, España
           </span>
         </motion.div>
       </motion.div>
