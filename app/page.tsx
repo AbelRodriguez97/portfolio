@@ -1,7 +1,13 @@
+import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-950 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">Abel Rodriguez — Portfolio</h1>
+    <main className="bg-[#0a0a0a] min-h-screen">
+      <Navbar />
+      <Hero />
+      <About />
     </main>
   );
 }
